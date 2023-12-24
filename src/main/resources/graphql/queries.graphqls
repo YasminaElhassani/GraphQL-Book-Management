@@ -1,0 +1,5 @@
+type Query {
+    getBookByTitre(titre: String): [BookDTO]
+    getBooks:[BookDTO]
+    getBookByPublisherAndPrice(publisher: String, price: Float): [BookDTO]
+}

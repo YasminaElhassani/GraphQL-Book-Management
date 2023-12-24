@@ -1,0 +1,17 @@
+type BookDTO{
+    date_Publication: String
+    price: Float
+    resume: String
+    titre: String
+    publisher: String
+}
+
+type Books{
+    id: String
+    date_Publication: String
+    price: Float
+    resume: String
+    titre: String
+    publisher: String
+
+}

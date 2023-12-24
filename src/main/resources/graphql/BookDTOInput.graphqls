@@ -1,0 +1,4 @@
+input BookDTOInput{
+    titre: String
+    publisher: String
+}
